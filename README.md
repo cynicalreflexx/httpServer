@@ -32,4 +32,4 @@ Before running this project, ensure that you have the following software install
    g++ -o httpServer httpServer.cpp -lws2_32
 4. Run the Server:
    ./httpServer
-Visit http://localhost:8080 in your browser. You should see the "Hello, World!" message.
+5. Visit http://localhost:8080 in your browser. You should see the "Hello, World!" message.
