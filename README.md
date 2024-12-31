@@ -28,3 +28,8 @@ Before running this project, ensure that you have the following software install
 2. Navigate to the project folder:
    ```bash
    cd path\to\your\project
+3. Build the project using g++ (assuming MinGW is installed):
+   g++ -o httpServer httpServer.cpp -lws2_32
+4. Run the Server:
+   ./httpServer
+Visit http://localhost:8080 in your browser. You should see the "Hello, World!" message.
